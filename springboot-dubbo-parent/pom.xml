@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ccb.dubbo</groupId>
+    <artifactId>springboot-dubbo-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot-dubbo-parent</name>
+    <description>Demo project for Spring Boot Dubbo</description>
+
+    <modules>
+        <module>springboot-dubbo-app</module>
+        <module>springboot-dubbo-common-api</module>
+        <module>springboot-dubbo-provider</module>
+        <module>springboot-dubbo-consumer</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.7.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <dubbo.starter.version>0.2.0</dubbo.starter.version>
+        <zookeeper.version>3.4.12</zookeeper.version>
+        <curator-framework.version>4.0.0</curator-framework.version>
+        <pagehelper.start.version>1.2.5</pagehelper.start.version>
+        <mybatis.start.version>1.3.2</mybatis.start.version>
+        <druid.start.version>1.1.9</druid.start.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- springboot整合dubbo项目，0.2.0版本结合了spring boot2.0，
+            springboot 1.0+ 则使用0.1.0 -->
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.starter.version}</version>
+            </dependency>
+
+            <!--Dubbo 上面dubbo-dubbo-boot-starter已包含dubbo 2.6.2
+            若要使用更高版本则加上此依赖-->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo</artifactId>-->
+                <!--<version>2.6.5</version>-->
+            <!--</dependency>-->
+            <!--Spring Context Extras-->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba.dubbo</groupId>-->
+                <!--<artifactId>dubbo-context-support</artifactId>-->
+                <!--<version>1.0.2</version>-->
+            <!--</dependency>-->
+
+            <!-- 上面dubbo-dubbo-boot-starter已包含zookeeper 3.4.9，
+            若需要更高版本则加上此依赖 -->
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator-framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+            </dependency>
+
+            <!-- dubbo boot整合mybatis-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.start.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <scope>runtime</scope>
+            </dependency>
+
+            <!-- 分页插件 -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper.start.version}</version>
+            </dependency>
+            <!-- alibaba的druid数据库连接池 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.start.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <!-- mybatis generator 自动生成代码插件 -->
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>1.3.2</version>
+                <configuration>
+                    <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
+                    <overwrite>true</overwrite>
+                    <verbose>true</verbose>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Insert title here</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <style type="text/css">
+        /*去掉页眉页脚*/
+        @page {
+            size: auto;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+<h2>用户列表</h2>
+<div>
+    <ul>
+        <li  th:each="user:${users}">
+            <span th:text="${user.id}"></span>-
+            <span th:text="${user.name}"></span>-
+            <span th:text="${user.age}"></span>-
+            <span th:text="${user.city}"></span>
+        </li>
+    </ul>
+</div>
+
+
+<div class="subtext1">
+    <div class="rtxt">
+        <input id="importData" name="importData" type="file"><a href = "javascript:;" onclick = "importData()">导入</a>
+    </div>
+</div>
+
+
+<script>
+    //数据导入
+    function importData(){
+
+        var files = $('input[name="importData"]').prop('files');//获取到文件列表
+        if(files.length == 0){
+            alert('请选择文件');
+            return;
+        }else{
+            var formData = new FormData();
+            var name = $("#importData").val();
+            formData.append("file",$("#importData")[0].files[0]);
+            formData.append("name",name);
+            console.log(formData);
+            var reg = /^.*\.(?:xls|xlsx)$/i;
+            if (!reg.test(name)) {//校验是否是excel格式的文件
+                alert("请上传excel格式的文件!");
+                return;
+            }
+            var  url = "importxsl";
+
+            $.ajax({
+                type : "post",
+                async : false,
+                traditional : true,
+                url : url,
+                dataType : "json",
+                data : formData,
+                processData : false,
+                contentType : false,
+                success : function(result) {
+                    console.log(result);
+                    if (result.success) {
+                        //保存刷新
+                        //........
+                        alert("导入成功!");
+
+                    }
+                },
+                error : function(errorMsg) {
+                    alert("导入失败!");
+                }
+            });
+
+        }
+    }
+
+</script>
+</body>
+</html>

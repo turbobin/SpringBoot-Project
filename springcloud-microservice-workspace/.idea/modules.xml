@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer.iml" filepath="$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-app/springcloud-microservice-comsumer-app.iml" filepath="$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-app/springcloud-microservice-comsumer-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-common-api/springcloud-microservice-comsumer-common-api.iml" filepath="$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-common-api/springcloud-microservice-comsumer-common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-service-impl/springcloud-microservice-comsumer-service-impl.iml" filepath="$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-service-impl/springcloud-microservice-comsumer-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-service-inf/springcloud-microservice-comsumer-service-inf.iml" filepath="$PROJECT_DIR$/springcloud-microservice-comsumer/springcloud-microservice-comsumer-service-inf/springcloud-microservice-comsumer-service-inf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-eureka/springcloud-microservice-eureka.iml" filepath="$PROJECT_DIR$/springcloud-microservice-eureka/springcloud-microservice-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider.iml" filepath="$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-app/springcloud-microservice-provider-app.iml" filepath="$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-app/springcloud-microservice-provider-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-common-api/springcloud-microservice-provider-common-api.iml" filepath="$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-common-api/springcloud-microservice-provider-common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-service-impl/springcloud-microservice-provider-service-impl.iml" filepath="$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-service-impl/springcloud-microservice-provider-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-service-inf/springcloud-microservice-provider-service-inf.iml" filepath="$PROJECT_DIR$/springcloud-microservice-provider/springcloud-microservice-provider-service-inf/springcloud-microservice-provider-service-inf.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ccb-springboot-order
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: turbobin
+Implementation-Vendor-Id: com.ccb.springboot
+Build-Jdk: 1.8.0_112
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/ccb-springboot-parent/ccb-springboot-order
+Created-By: Maven Integration for Eclipse
+

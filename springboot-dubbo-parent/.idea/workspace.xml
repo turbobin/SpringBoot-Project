@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd067350-8ddf-4ac6-b69c-71556b5632c2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-common-api/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-app/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/dubbo.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-dubbo-app/src/main/java/com/ccb/dubbo/app/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.ccb.dubbo.common</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.ccb.dubbo.provider</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/dubbo/dubbo-provider.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-dubbo-common-api/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-common-api/src/main/resources/mapping/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/mapping/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/java/com/ccb/dubbo/provider/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-common-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-common-api/src/main/java/com/ccb/dubbo/common/model/User.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/spring/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/java/com/ccb/dubbo/provider/config/DubboConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-consumer/src/main/resources/spring/dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/dubbo.properties" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/dubbo/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/java/com/ccb/dubbo/provider/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-consumer/src/main/java/com/ccb/dubbo/consumer/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-consumer/src/main/java/com/ccb/dubbo/consumer/Application.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-common-api/src/main/java/com/ccb/dubbo/common/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/java/com/ccb/dubbo/provider/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-app/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-app/src/main/java/com/ccb/dubbo/app/Application.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-dubbo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-dubbo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="22" />
+    <option name="y" value="14" />
+    <option name="width" value="1378" />
+    <option name="height" value="816" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545733132951" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/dubbo.properties" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4091904" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Spring-Boot-Project\springboot-dubbo-parent\springboot-dubbo-app\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\Spring-Boot-Project\springboot-dubbo-parent\springboot-dubbo-provider\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ccb.dubbo.app" />
+      <recent name="com.ccb.dubbo.provider.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Spring-Boot-Project\springboot-dubbo-parent\springboot-dubbo-common-api\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\Spring-Boot-Project\springboot-dubbo-parent\springboot-dubbo-provider\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.19147287" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate:" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springboot-dubbo-common-api" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccb.dubbo.consumer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-dubbo-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccb.dubbo.app.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccb.dubbo.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccb.dubbo.provider.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd067350-8ddf-4ac6-b69c-71556b5632c2" name="Default Changelist" comment="" />
+      <created>1545013359660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545013359660</updated>
+      <workItem from="1545013362621" duration="1209000" />
+      <workItem from="1545098343364" duration="1717000" />
+      <workItem from="1545186446592" duration="16844000" />
+      <workItem from="1545275794074" duration="17541000" />
+      <workItem from="1545353696410" duration="7750000" />
+      <workItem from="1545643962092" duration="1371000" />
+      <workItem from="1545648502604" duration="31000" />
+      <workItem from="1545649316823" duration="1823000" />
+      <workItem from="1545700995748" duration="204000" />
+      <workItem from="1545728577179" duration="1295000" />
+      <workItem from="1546583800601" duration="225000" />
+      <workItem from="1548210023909" duration="41000" />
+      <workItem from="1553048129385" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50091000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="22" y="14" width="1378" height="816" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30349013" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3210059" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.30994153" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32988167" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32852808" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-common-api/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-common-api/src/main/resources/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-common-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/java/com/ccb/dubbo/provider/config/DubboConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-common-api/src/main/java/com/ccb/dubbo/common/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-common-api/src/main/java/com/ccb/dubbo/common/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-common-api/src/main/java/com/ccb/dubbo/common/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/java/com/ccb/dubbo/provider/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/java/com/ccb/dubbo/provider/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-consumer/src/main/java/com/ccb/dubbo/consumer/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-app/src/main/resources/dubbo/dubbo-provider.xml" />
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-consumer/src/main/java/com/ccb/dubbo/consumer/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/dubbo/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-app/src/main/java/com/ccb/dubbo/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-dubbo-provider/src/main/resources/dubbo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4091904" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (springboot-dubbo-provider)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4091904" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|springboot-dubbo-provider</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4091904" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

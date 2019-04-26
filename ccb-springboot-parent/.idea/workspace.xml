@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7226e1dc-967b-43e7-ba3c-396c92cc72da" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/ccb-springboot-order/target/" />
+    <ignored path="$PROJECT_DIR$/ccb-springboot-item/target/" />
+    <ignored path="$PROJECT_DIR$/ccb-springboot-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/service/ItemService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#1644#1645#0" expanded="true" />
+                <element signature="e#1734#1735#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ccb-springboot-eureka/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ccb-springboot-item/src/main/java/com/ccb/springboot/item/pojo/Item.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/ccb-springboot-item/src/test/java/com/ccb/springboot/item/service/ItemServiceTest.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-item/src/main/java/com/ccb/springboot/item/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/pojo/OrderDetail.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ccb-springboot-item/src/main/java/com/ccb/springboot/item/ItemApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/pojo/Item.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/OrderApplication.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/test/java/com/ccb/springboot/order/service/ItemServiceTest.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-item/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ccb-springboot-item/pom.xml" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/pom.xml" />
+        <option value="$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/ccb-springboot-eureka/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ccb-springboot-order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="22" />
+    <option name="y" value="14" />
+    <option name="width" value="1378" />
+    <option name="height" value="816" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ccb-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ccb-springboot-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546074876559" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-microservice-workspace" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ccb.springboot.order.service" />
+      <recent name="com.ccb.springboot.item.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ccb.springboot.order.service" />
+      <recent name="com.ccb.springboot.order.pojo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.19330288" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServer">
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true" temporary="true" nameIsGenerated="true">
+      <module name="ccb-springboot-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccb.springboot.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccb.springboot.eureka.EurekaServer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ccb-springboot-item" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccb.springboot.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccb.springboot.item.ItemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ccb-springboot-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccb.springboot.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ccb.springboot.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ItemApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.ItemApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7226e1dc-967b-43e7-ba3c-396c92cc72da" name="Default Changelist" comment="" />
+      <created>1544250659630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544250659630</updated>
+      <workItem from="1544250666169" duration="12398000" />
+      <workItem from="1544336245706" duration="16377000" />
+      <workItem from="1544536559158" duration="634000" />
+      <workItem from="1544620183324" duration="46000" />
+      <workItem from="1544881772856" duration="28000" />
+      <workItem from="1545010979244" duration="2118000" />
+      <workItem from="1545039161444" duration="955000" />
+      <workItem from="1545044927284" duration="944000" />
+      <workItem from="1545098299496" duration="27000" />
+      <workItem from="1545372948081" duration="6157000" />
+      <workItem from="1545699699344" duration="12290000" />
+      <workItem from="1545793412831" duration="10053000" />
+      <workItem from="1545875090655" duration="6241000" />
+      <workItem from="1546046957386" duration="7280000" />
+      <workItem from="1546393034315" duration="1918000" />
+      <workItem from="1546500520297" duration="575000" />
+      <workItem from="1548210314406" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ItemServiceTest_test - 2018.12.09 at 17h 11m 19s.xml">
+      <configuration name="ItemServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemServiceTest_test - 2018.12.09 at 17h 15m 04s.xml">
+      <configuration name="ItemServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemServiceTest_test - 2018.12.09 at 17h 16m 47s.xml">
+      <configuration name="ItemServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemServiceTest_test - 2018.12.09 at 17h 18m 53s.xml">
+      <configuration name="ItemServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemServiceTest - 2018.12.09 at 22h 13m 15s.xml">
+      <configuration name="ItemServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemServiceTest - 2018.12.17 at 10h 16m 29s.xml">
+      <configuration name="ItemServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78064000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24713467" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38172042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3252688" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.24462366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32879657" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24962743" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32935917" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://MAVEN/com.ccb.springboot:ccb-springboot-eureka:1.0.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ccb.springboot:ccb-springboot-eureka:1.0.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.ccb.springboot:ccb-springboot-eureka:1.0.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot:jar:2.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot:jar:2.0.7.RELEASE/org.springframework:spring-context:jar:5.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot:jar:2.0.7.RELEASE/org.springframework:spring-context:jar:5.0.11.RELEASE/org.springframework:spring-aop:jar:5.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot:jar:2.0.7.RELEASE/org.springframework:spring-context:jar:5.0.11.RELEASE/org.springframework:spring-beans:jar:5.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot:jar:2.0.7.RELEASE/org.springframework:spring-context:jar:5.0.11.RELEASE/org.springframework:spring-expression:jar:5.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework:spring-core:jar:5.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.springframework:spring-core:jar:5.0.11.RELEASE/org.springframework:spring-jcl:jar:5.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.2.RELEASE/org.springframework.security:spring-security-crypto:jar:5.0.10.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:2.0.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60/org.bouncycastle:bcprov-jdk15on:jar:1.60</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.4356206630686199" x="639.0" y="385.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.2.RELEASE/spring-cloud-commons-2.0.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-item/src/test/java/com/ccb/springboot/item/service/ItemServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/test/java/com/ccb/springboot/order/service/ItemServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/pojo/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-item/src/main/java/com/ccb/springboot/item/ItemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-item/src/main/java/com/ccb/springboot/item/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-item/src/main/java/com/ccb/springboot/item/pojo/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-item/src/main/java/com/ccb/springboot/item/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-item/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-eureka/src/main/java/com/ccb/springboot/eureka/EurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/pojo/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/exception/ExceptionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/exception/CommandActionExecutionException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
+          <folding>
+            <element signature="e#8799#8800#0" expanded="true" />
+            <element signature="e#8835#8836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OnSubscribeDoOnEach.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/Observable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1607" selection-start-line="1607" selection-end-line="1607" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OperatorSubscribeOn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/strategy/concurrency/HystrixContexSchedulerAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/schedulers/ScheduledAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OnSubscribeDefer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OnSubscribeLift.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/command/AbstractHystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/command/MethodExecutionAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-order/src/main/java/com/ccb/springboot/order/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccb-springboot-eureka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
